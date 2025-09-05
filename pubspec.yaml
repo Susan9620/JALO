@@ -1,5 +1,5 @@
-name: duett
-description: "A new Flutter project."
+name: jalo
+description: "App social de fiesta JALO"
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
@@ -30,18 +30,13 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  lottie: ^3.3.1
-  firebase_core: ^3.12.1
-  firebase_auth: ^5.5.1
-  firebase_messaging: ^15.2.10
-  firebase_database: ^11.3.4
-  google_sign_in: ^6.2.2
-  flutter_easyloading: ^3.0.5
-  shared_preferences: ^2.5.3
   provider: ^6.1.5
-  google_maps_flutter: ^2.12.3
-  googleapis_auth: ^2.0.0
-  http: ^1.5.0
+  go_router: ^14.1.4
+  dio: ^5.5.0+1
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  uuid: ^4.3.3
+  flutter_animate: ^4.5.0
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -51,6 +46,7 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_launcher_icons: ^0.14.4
+  mockito: ^5.4.4
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is

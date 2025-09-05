@@ -1,8 +1,16 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    
     <application
-        android:label="duett"
+        android:label="JALO"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
+
+        <meta-data 
+            android:name="com.google.android.geo.API_KEY" 
+            android:value="AIzaSyBKjZyZ5SVEsfAMtmLOUMBX-drKqn5T3xk" />
+
         <activity
             android:name=".MainActivity"
             android:exported="true"

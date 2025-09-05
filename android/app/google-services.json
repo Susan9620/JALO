@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "87800102209",
+    "project_id": "duett-7c215",
+    "storage_bucket": "duett-7c215.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:87800102209:android:9890169d47aa3419e435c0",
+        "android_client_info": {
+          "package_name": "com.example.duett"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "87800102209-nen0htd0vms55d5pho28m6p6lsev2qh8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyh_QBjBmrpl4NKywcs8TUKn5xZFEjD64"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "87800102209-nen0htd0vms55d5pho28m6p6lsev2qh8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

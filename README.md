@@ -1,35 +1,16 @@
-# JALO
+# duett
 
-Aplicación móvil en Flutter con backend Node.js/Express y MongoDB Atlas.
+A new Flutter project.
 
-## Flutter
+## Getting Started
 
-```
-flutter pub get
-flutter run
-```
+This project is a starting point for a Flutter application.
 
-Configura la URL del backend en `lib/env.dart` modificando `baseUrl`.
+A few resources to get you started if this is your first Flutter project:
 
-## Backend
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-```
-cd backend
-npm install
-npm run dev
-```
-
-Variables de entorno en `backend/.env`:
-
-```
-MONGODB_URI=mongodb+srv://...
-ALLOWED_ORIGINS=http://localhost:3000
-PORT=3000
-```
-
-Compilar para producción:
-
-```
-npm run build
-npm start
-```
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
